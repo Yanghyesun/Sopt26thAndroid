@@ -1,4 +1,5 @@
 [1차 세미나 과제]
+
 *constraintlayout의 chain style => packed, spread, weight
 <img width="632" alt="스크린샷 2020-05-08 오후 11 27 37" src="https://user-images.githubusercontent.com/37995236/81416356-903f4e80-9184-11ea-8780-3f688c18d56d.png">
 
@@ -11,6 +12,7 @@ activity 화면 전환시 사용
 
 
 [2차 세미나 과제]
+
 *Bottom Navigation, ViewPager, RecyclerView
 Bottom Navigation은 item을 최소 3개 이상 추가해야 한다.
 <img width="385" alt="스크린샷 2020-05-08 오후 11 01 16" src="https://user-images.githubusercontent.com/37995236/81416394-9f260100-9184-11ea-9951-63d4e905e0c5.png">
