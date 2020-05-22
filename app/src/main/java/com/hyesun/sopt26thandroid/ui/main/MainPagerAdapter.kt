@@ -1,8 +1,11 @@
-package com.hyesun.sopt26thandroid
+package com.hyesun.sopt26thandroid.ui.main
 
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
 import androidx.fragment.app.FragmentPagerAdapter
+import com.hyesun.sopt26thandroid.ui.book.BookFragment
+import com.hyesun.sopt26thandroid.ui.home.HomeFragment
+import com.hyesun.sopt26thandroid.ui.mypage.MyPageFragment
 
 
 class MainPagerAdapter(fm: FragmentManager) :

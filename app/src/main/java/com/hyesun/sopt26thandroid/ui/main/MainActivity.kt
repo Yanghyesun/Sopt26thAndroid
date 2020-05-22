@@ -1,9 +1,9 @@
-package com.hyesun.sopt26thandroid
+package com.hyesun.sopt26thandroid.ui.main
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import androidx.viewpager.widget.PagerAdapter
 import androidx.viewpager.widget.ViewPager
+import com.hyesun.sopt26thandroid.R
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
@@ -12,7 +12,10 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        main_viewpager.adapter = MainPagerAdapter(supportFragmentManager)
+        main_viewpager.adapter =
+            MainPagerAdapter(
+                supportFragmentManager
+            )
         main_viewpager.offscreenPageLimit = 2
 
         main_viewpager.addOnPageChangeListener(object :ViewPager.OnPageChangeListener{

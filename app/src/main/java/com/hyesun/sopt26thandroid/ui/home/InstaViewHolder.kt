@@ -1,10 +1,12 @@
-package com.hyesun.sopt26thandroid
+package com.hyesun.sopt26thandroid.ui.home
 
 import android.view.View
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
+import com.hyesun.sopt26thandroid.R
+import com.hyesun.sopt26thandroid.data.InstaData
 
 class InstaViewHolder(view: View):RecyclerView.ViewHolder(view) {
     val profile_img = view.findViewById<ImageView>(R.id.img_profile)

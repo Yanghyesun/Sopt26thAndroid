@@ -1,10 +1,13 @@
-package com.hyesun.sopt26thandroid
+package com.hyesun.sopt26thandroid.ui.home
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import com.hyesun.sopt26thandroid.R
+import com.hyesun.sopt26thandroid.util.VerticalItemDecoration
+import com.hyesun.sopt26thandroid.data.InstaData
 import kotlinx.android.synthetic.main.fragment_home.*
 
 /**
@@ -39,9 +42,14 @@ class HomeFragment : Fragment() {
             )
         )
 
-        instaAdapter = InstaRecyclerAdapter(context!!)
+        instaAdapter =
+            InstaRecyclerAdapter(context!!)
         home_recycler.adapter = instaAdapter
-        home_recycler.addItemDecoration(VerticalItemDecoration(24))
+        home_recycler.addItemDecoration(
+            VerticalItemDecoration(
+                24
+            )
+        )
         instaAdapter.data = instaData
         instaAdapter.notifyDataSetChanged()
     }

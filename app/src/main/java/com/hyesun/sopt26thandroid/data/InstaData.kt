@@ -1,4 +1,4 @@
-package com.hyesun.sopt26thandroid
+package com.hyesun.sopt26thandroid.data
 
 data class InstaData(
     val profile_img: String,

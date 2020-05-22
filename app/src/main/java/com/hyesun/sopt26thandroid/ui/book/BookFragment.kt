@@ -1,10 +1,11 @@
-package com.hyesun.sopt26thandroid
+package com.hyesun.sopt26thandroid.ui.book
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import com.hyesun.sopt26thandroid.R
 
 /**
  * A simple [Fragment] subclass.

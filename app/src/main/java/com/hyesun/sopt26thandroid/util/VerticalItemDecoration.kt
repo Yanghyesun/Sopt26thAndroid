@@ -1,4 +1,4 @@
-package com.hyesun.sopt26thandroid
+package com.hyesun.sopt26thandroid.util
 
 import android.graphics.Rect
 import android.view.View

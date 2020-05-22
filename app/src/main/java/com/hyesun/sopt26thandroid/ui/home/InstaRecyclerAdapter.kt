@@ -1,9 +1,11 @@
-package com.hyesun.sopt26thandroid
+package com.hyesun.sopt26thandroid.ui.home
 
 import android.content.Context
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
+import com.hyesun.sopt26thandroid.R
+import com.hyesun.sopt26thandroid.data.InstaData
 
 class InstaRecyclerAdapter(private val context: Context):RecyclerView.Adapter<InstaViewHolder>() {
     var data = listOf<InstaData>()
